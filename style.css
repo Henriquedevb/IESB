@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  background-color: #d92f35;
+}
+
+.header .container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-image img {
+  max-width: 200px;
+  align-items: center;
+}
+
+.header .login-content {
+  color: white;
+  background-color: #d92f35;
+  width: 300px;
+  height: 80%;
+}
+
+.header .login-content h3 {
+  text-decoration: underline;
+}
+
+.background-image-iesb img {
+  max-width: calc(100vw - 17px);
+}
+
+.h1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -5rem;
+  margin-right: 3rem;
+  margin-bottom: 4rem;
+  color: white;
+}
+
+input {
+  padding: 4px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 130px;
+}
+
+/* section */
+
+/* nav */
+
+.nav {
+  margin-top: 1rem;
+}
+
+.nav > ul {
+  display: flex;
+  max-width: 800px;
+  width: 100vw;
+  list-style: none;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-inline-end: 0;
+  margin: auto;
+}
+
+/* section */
+.container-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container-section p {
+  display: flex;
+  margin-top: 1rem;
+}
+
+section {
+  max-width: 600px;
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.icons > img {
+  margin: 5px;
+  max-width: 50px;
+}
+
+.email {
+  border-radius: 50%;
+}
+/* footer */
+
+footer {
+  background-color: #da3f3f;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+
+  border: 1px solid black;
+}
